@@ -1,5 +1,5 @@
 #######################################
-##  ELASTIC SEARCH VERSION 7.1       ##
+##  ELASTIC SEARCH VERSION 7.1.x     ##
 #######################################
 #Download and install the public signing key:
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -15,7 +15,7 @@ sudo apt-get update && sudo apt-get install elasticsearch
 sudo apt install openjdk-8-jre
 
 ########################################
-##         KIBANA DASHBOARD 7.1.0     ##
+##         KIBANA DASHBOARD 7.1.x     ##
 ########################################
 #Download and install the public signing key:
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -27,7 +27,7 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update && sudo apt-get install kibana
 
 ###########################################
-##            LOGSTASH 7.1.0             ##
+##            LOGSTASH 7.1.x             ##
 ###########################################
 #Download and install the Public Signing Key:
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
@@ -39,7 +39,7 @@ echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" | sudo tee 
 sudo apt-get update && sudo apt-get install logstash
 
 ############################################
-##           APM-SERVER 7.1.0             ##
+##           APM-SERVER 7.1.x             ##
 ############################################
 #Download and install the Public Signing Key:
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
